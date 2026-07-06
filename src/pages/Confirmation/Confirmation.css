@@ -1,0 +1,45 @@
+.confirmation-content {
+  background-color: var(--white);
+  padding: 4rem 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--success);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 1.5rem;
+}
+
+.order-number {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.message {
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.survey-prompt {
+  background-color: var(--light-bg);
+  padding: 2rem;
+  border-radius: var(--radius-md);
+}
+
+.survey-prompt h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}

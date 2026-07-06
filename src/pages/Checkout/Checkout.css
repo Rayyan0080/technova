@@ -1,0 +1,11 @@
+.checkout-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.checkout-content {
+  background-color: var(--white);
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
