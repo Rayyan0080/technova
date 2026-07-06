@@ -8,9 +8,11 @@ import "./index.css";
 // This automatically uses '/technova' for GitHub Pages, and '/' for localhost!
 const routerBaseName = import.meta.env.DEV ? "/" : "/technova/";
 
+// ... (imports)
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={routerBaseName}>
+    <BrowserRouter basename="/technova">
       <CartProvider>
         <App />
       </CartProvider>
